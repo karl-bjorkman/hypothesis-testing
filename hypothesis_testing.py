@@ -24,8 +24,6 @@ tstat, pval = ttest_1samp(
 # Given that 15 people read an article in the sample of 100, can we reject the null hypothesis?
 # ... and therefore say we have evidence to accept the alternative hypothesis?
 
-# Will the resulting p-value be 'significant' (less than significance threshold) or 'not significant'?
-
 p_value_2sided = binom_test(
     x = 15,  # Observed sample statistic / observed successes
     n = 100,  # Sample size / total number of trials
